@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <head>
+        <title>Recomendacion de peliculas</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="recomendacion.js"></script>
+    </head>
+    <body>
+        <h1>CATALOGO DE PELICULAS</h1>
+        <h3>Recomendacion</h3>
+
+        <p>Queremos hacer que tu visias a nuestra pagina sea una buena experiencia y tengas buenas impresiones
+            por eso es que te pedimos que ingreses tu edad y el genero que te gusta asi te podremos 
+            recomendar alguna pelicula para que veas!
+        </p>
+        <p>Ingrese su edad</p>
+        <input type="number" id="textoEdad">
+        <br/><br/>
+        <button onclick="recomendar('drama')">Drama</button>
+        <button onclick="recomendar('comedia')">Comedia</button>
+        <button onclick="recomendar('amor')">Amor</button>
+        <button onclick="recomendar('terror')">Terror</button>
+
+        <h3>Le recomendamos ver:</h3>
+        <h2 id="recomendacion"></h2>
+    </body>
+
+
+</html>
